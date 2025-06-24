@@ -1,14 +1,14 @@
 /* General Styles */
 body {
     font-family: 'Segoe UI', Arial, sans-serif;
-    background: #f8fafc;
+    background: #fff8f0;
     margin: 0;
     padding: 0;
-    color: #222;
+    color: #3a2200;
 }
 
 header {
-    background: #4f8cff;
+    background: #ff8800;
     color: #fff;
     padding: 2rem 0 1rem 0;
     text-align: center;
@@ -28,7 +28,7 @@ main {
 .recipe-post {
     background: #fff;
     border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    box-shadow: 0 2px 8px rgba(255,136,0,0.08);
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 1.5rem;
@@ -48,9 +48,9 @@ main {
 }
 
 .like-btn {
-    background: #ffecb3;
+    background: #ffe0b2;
     border: none;
-    color: #d2691e;
+    color: #ff8800;
     font-size: 1rem;
     padding: 0.5rem 1rem;
     border-radius: 20px;
@@ -59,7 +59,7 @@ main {
     transition: background 0.2s;
 }
 .like-btn:hover {
-    background: #ffd966;
+    background: #ffd699;
 }
 
 .like-count {
@@ -70,7 +70,7 @@ main {
 .submit-recipe {
     background: #fff;
     border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    box-shadow: 0 2px 8px rgba(255,136,0,0.08);
     padding: 1.5rem;
 }
 .submit-recipe h2 {
@@ -84,7 +84,7 @@ main {
 .submit-recipe input[type="text"],
 .submit-recipe textarea {
     padding: 0.7rem;
-    border: 1px solid #b3c6ff;
+    border: 1px solid #ffb366;
     border-radius: 6px;
     font-size: 1rem;
 }
@@ -96,7 +96,7 @@ main {
     font-size: 1rem;
 }
 .submit-recipe button[type="submit"] {
-    background: #4f8cff;
+    background: #ff8800;
     color: #fff;
     border: none;
     padding: 0.7rem 1.5rem;
@@ -106,12 +106,12 @@ main {
     transition: background 0.2s;
 }
 .submit-recipe button[type="submit"]:hover {
-    background: #2563eb;
+    background: #ff6600;
 }
 
 footer {
     text-align: center;
-    color: #888;
+    color: #b36b00;
     padding: 1.5rem 0 1rem 0;
     font-size: 0.95rem;
 }
